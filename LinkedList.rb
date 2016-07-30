@@ -171,13 +171,3 @@ class LinkedList
 		end
 	end
 end	
-
-
-a = LinkedList.new
-a.prepend(1)
-a.append(2)
-a.append(3)
-a.append(4)
-puts a
-a.remove_at(1)
-puts a
